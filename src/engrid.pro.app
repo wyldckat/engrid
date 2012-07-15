@@ -56,7 +56,13 @@ win32-msvc* {
     LIBS += -lm
     LIBS += -ltcl8.5
     LIBS += -L./libengrid -lengrid
-    LIBS += -L./netgen_svn -lng
+
+    debian {
+        LIBS += -lnglib
+    }
+    else {
+        LIBS += -L./netgen_svn -lng
+    }
 
 LIBS        += -L$(VTKLIBDIR)
 LIBS        += -lQVTK
