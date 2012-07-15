@@ -7,13 +7,12 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-export DH_VERBOSE=1
+#export DH_VERBOSE=1
 
 # Add here any variable or target overrides you need.
 QMAKE=qmake-qt4 -recursive
 CFLAGS=-O3
 CXXFLAGS=-O3
-MAKEFLAGS=-j4
 DEB_BUILDDIR=src
 DEB_QMAKE_CONFIG_VAL=debian
 
