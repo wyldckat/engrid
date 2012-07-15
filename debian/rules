@@ -13,6 +13,7 @@ export DH_VERBOSE=1
 QMAKE=qmake-qt4 -recursive
 CFLAGS=-O3
 CXXFLAGS=-O3
+MAKEFLAGS=-j4
 DEB_BUILDDIR=src
 DEB_QMAKE_CONFIG_VAL=debian
 
