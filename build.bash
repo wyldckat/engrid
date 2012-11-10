@@ -92,7 +92,7 @@ else
     fi
     git clone https://github.com/enGits/engrid.git
     cd engrid
-    git checkout -b release-1.4 remotes/origin/release-1.4
+    git checkout -b sandbox-1.4 remotes/origin/sandbox-1.4
     cd src
     source scripts/setup_pathes.bash
     source scripts/build-nglib.sh
